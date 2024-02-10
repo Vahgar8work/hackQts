@@ -1,3 +1,62 @@
 body{
-    background-color: aqua;
+    background-color:antiquewhite;
+}
+
+.button1{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    border: solid white;
+    width: 100px;
+    height: 30px;
+}
+
+.button2{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid green;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+.logo{
+    display: inline;
+    width: 10%;
+    height: auto;
+}
+
+.introbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: fit-content;
+    margin-top: 2.5%;
+    z-index: 1;
+     
+}
+
+.para{
+    width: 30%;
+}
+
+
+
+.introimg{
+    size: 34%;
+    opacity: 80%;
+
+}
+
+.carddiv{
+    margin: 5%;
+}
+
+.cardimg{
+    width: inherit;
+    height: 20em;
 }
